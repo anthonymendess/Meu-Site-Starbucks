@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif}
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    margin:-20px auto;
+    margin: left 900px; ;
+    
+}
+html,body{
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+    header{
+    padding: 20px 0;
+    height: 20px;
+}
+
+.logo{
+    width: 50%;
+    margin: 10px;
+    
+}
+.menu{
+    padding-top: 10px;
+    text-align: right;
+    
+}
+.menu a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+   
+}
+section.sobre{
+    height: calc(89% - 200px);
+    position: relative;
+}
+.extras{
+    width: 50%;
+    position: absolute;
+    bottom: -500px;
+    right: -590px;
+    width: 1200px;
+    height: 810px;
+    border-radius: 83%;
+    background-color: #1c601c;
+}
+.social-media{
+    position: absolute;
+    right: 600px;
+    top: 10px;
+
+}
+.social-media img{
+    display: block;
+    width: 20px;
+    margin: 10px 0;
+}
+.texto-sobre{
+    margin-top: 100px;
+    position: absolute;
+    width: 50%;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 4rem;
+}
+.texto-sobre h1{
+    font-size: 58px;
+}
+.texto-sobre p{
+    
+    margin: 20px 0;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    max-width: 700px; 
+}
+.texto-sobre button{
+    
+    border: 0;
+    background-color: green ;
+    color: wheat;
+    border-radius: 14px;
+    width: 150px;
+    height: 31px ;
+    cursor: pointer;
+}
+ 
+@media screen and (max-width: 1200px) {
+    .extras{ 
+        width: 50%;
+    position: absolute;
+    bottom: -500px;
+    right: -590px;
+    width: 1100px;
+    height: 810px;
+    border-radius: 83%;
+    background-color: #1c601c;
+    }
+}
+@media screen and (max-width: 900px) {
+    .extras{ 
+    display: none;
+    visibility: hidden;
+    }
+}
+@media screen and (max-width: 900px) {
+    .center{
+       
+     
+        justify-content: center;
+       
+      
+        
+        
+    }
+}
+@media screen and (max-width: 881px) {
+    .texto-sobre h1{
+        font-size: 40px;
+    }
+
+    .texto-sobre p{
+        margin: 20px 0;
+        color: black;
+        font-size: 13px;
+        font-weight: bold;
+        max-width: 1900px; 
+    }
+}
+@media screen and (max-width: 610px) {
+
+    .texto-sobre h1{
+        font-size: 36px;
+    }
+    .texto-sobre p{
+        margin: 20px 0;
+        color: black;
+        font-size: 12px;
+        font-weight: bold;
+        max-width: 1900px; 
+    }
+}
+@media screen and (max-width: 576px) {
+    .texto-sobre h1{
+        font-size: 30px;
+    }
+    .texto-sobre p{
+        margin: 20px 0;
+        color: black;
+        font-size: 9px;
+        font-weight: bold;
+        max-width: 1900px; 
+        position: relative;
+    }
+}
+@media screen and (max-width: 433px) {
+    .texto-sobre h1{
+        font-size: 30px;
+        
+    }
+    .texto-sobre p{
+        margin: 20px 0;
+        color: black;
+        font-size: 7px;
+        font-weight: bold;
+        max-width: 1900px; 
+        position: relative;
+    }
+}
+@media screen and (max-width: 385px) {
+    .texto-sobre h1{
+        font-size: 12px;
+        
+    }
+    .texto-sobre p{
+        margin: 20px 0;
+        color: black;
+        font-size: 7px;
+        font-weight: bold;
+        max-width: 1900px; 
+        position: relative;
+    }
+}
+@media screen and (max-width: 340px) {
+    .texto-sobre h1{
+        font-size: 12px;
+        
+    }
+    .texto-sobre p{
+        margin: 20px 0;
+        color: black;
+        font-size: 5px;
+        font-weight: bold;
+        max-width: 1900px; 
+        position: relative;
+    }
+}
+
+/* // ultima para proporçães atuais // */
+@media screen and (min-width: 2900px) and (max-width: 10000px) {  
+    .extras{ 
+        width: 50%;
+    position: absolute;
+    bottom: -900px;
+    right: -1390px;
+    width: 2100px;
+    height: 1910px;
+    border-radius: 83%;
+    background-color: #1c601c;
+    }
+    .center{
+
+    
+    justify-content: center;
+    }
+
+    .texto-sobre h1{
+        font-size: 90px;
+        
+    }
+    .texto-sobre p{
+        margin: 20px 0;
+        color: black;
+        font-size: 25px;
+        font-weight: bold;
+        max-width: 1900px; 
+        position: relative;
+    }
+}
